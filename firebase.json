@@ -1,0 +1,23 @@
+{
+  "hosting": {
+    "public": ".",
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ],
+    "ignore": [
+      "firebase.json"
+    ],
+    "redirects": [
+      {
+        "source" : "/haipc",
+        "destination" : "http://haipc.info",
+        "type" : 301
+      }
+    ],
+    "cleanUrls": true,
+    "trailingSlash": false
+  }
+}
